@@ -1,0 +1,26 @@
+// Define new theme colors
+$primary: #ff69b4; // Beautiful pink shade
+$secondary: #ffb6c1; // Light pink
+$dark: #5558ea; // Deep purple for contrast
+$light: #ffe4e1; // Soft pastel pink
+
+// Import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Custom styling
+body {
+  background-color: $light;
+  color: $dark;
+}
+
+.navbar {
+  background-color: $primary !important;
+}
+
+.btn-primary {
+  background-color: $primary;
+  border-color: darken($primary, 10%);
+  &:hover {
+    background-color: darken($primary, 15%);
+  }
+}
