@@ -1,9 +1,9 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a17313e1-0d35-48d5-b659-54a709f97f06/deploy-status)](https://willowy-biscochitos-d1238e.netlify.app/)
 <br>
 Group Members:
-Jasmine kaur  - Responsible for Overall website ,Design, Color scheme, and Theme.</n>
-Gursimran Kaur - Table and content use
-Avneet Kaur - Images and links
+Jasmine kaur  - Responsible for Overall website ,Design, Color scheme, and Theme.<br>
+Gursimran Kaur - Table and content use<br>
+Avneet Kaur - Images and links<br>
 <br>
 <h2>Project Overview</h2>
 Portfolio Website Overview - Team Project
@@ -14,11 +14,11 @@ Responsive Layout: Utilizes Bootstrap's grid system and media queries for mobile
 Project Structure
 Web Development Framework
 
-About
+<h2>About</h2>
 
 This is a lightweight and customizable web development framework created by Jasmine Kaur, Avneet Kaur, and Gursimran Kaur. It provides a solid foundation for building responsive and modern web applications.
 
-Installation
+<h2>Installation</h2>
 
 Clone the repository:
 
