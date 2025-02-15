@@ -11211,5 +11211,25 @@ textarea.form-control-lg {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+/* Services Section */
+#services {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.table {
+  border: 2px solid black;
+}
+
+.table th {
+  background-color: #333;
+  color: white;
+}
+
+.table td {
+  padding: 10px;
+  font-weight: bold;
+}
+
 
 /*# sourceMappingURL=style.css.map */
