@@ -4,7 +4,8 @@ Group Members:
 Jasmine kaur  - Responsible for Overall website ,Design, Color scheme, and Theme.
 Gursimran Kaur - Table and content use
 Avneet Kaur - Images and links
-Project Overview
+<br>
+<h2>Project Overview</h2>
 Portfolio Website Overview - Team Project
 Design & Theme
 Color Scheme: The website features a purple-themed design with various shades of purple for consistency and contrast.
