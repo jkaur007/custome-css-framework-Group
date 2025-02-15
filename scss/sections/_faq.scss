@@ -1,0 +1,52 @@
+// _faq.scss
+
+.faq-section {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+
+    .faq-title {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .faq-item {
+        margin-bottom: 20px;
+
+        .faq-question {
+            font-size: 1.25rem;
+            font-weight: 600;
+            cursor: pointer;
+            position: relative;
+            padding-right: 30px;
+
+            &:after {
+                content: '\f078'; // FontAwesome down arrow
+                font-family: 'FontAwesome';
+                position: absolute;
+                right: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                transition: transform 0.3s ease;
+            }
+        }
+
+        .faq-answer {
+            display: none;
+            padding: 10px 0;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        &.active {
+            .faq-question:after {
+                transform: translateY(-50%) rotate(180deg);
+            }
+
+            .faq-answer {
+                display: block;
+            }
+        }
+    }
+}
