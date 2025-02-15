@@ -1,7 +1,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a17313e1-0d35-48d5-b659-54a709f97f06/deploy-status)](https://willowy-biscochitos-d1238e.netlify.app/)
 <br>
 Group Members:
-Jasmine kaur  - Responsible for Overall website ,Design, Color scheme, and Theme.
+Jasmine kaur  - Responsible for Overall website ,Design, Color scheme, and Theme.<\n>
 Gursimran Kaur - Table and content use
 Avneet Kaur - Images and links
 <br>
