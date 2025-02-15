@@ -19,6 +19,31 @@ Web Development Framework
 This is a lightweight and customizable web development framework created by Jasmine Kaur, Avneet Kaur, and Gursimran Kaur. It provides a solid foundation for building responsive and modern web applications.
 
 <h2>Installation</h2>
+1️⃣ Install Sass Using npm (Recommended for Web Developers)
+If you have Node.js installed, you can use npm (Node Package Manager) to install Sass globally.
+
+🔹 Step 1: Check if Node.js is Installed
+Run the following command in your terminal (Command Prompt/PowerShell for Windows or Terminal for macOS/Linux):
+
+sh
+
+node -v
+If Node.js is installed, it will show the version. If not, download and install it from Node.js official site.
+
+🔹 Step 2: Install Sass Globally
+Once Node.js is installed, run:
+
+sh
+npm install -g sass
+This installs Sass globally so you can use it in any project.
+
+🔹 Step 3: Check if Sass is Installed
+Verify the installation with:
+
+sh
+sass --version
+This should output the installed version of Sass.
+
 
 Clone the repository:
 
