@@ -1,3 +1,4 @@
+# Web Development Project  
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a17313e1-0d35-48d5-b659-54a709f97f06/deploy-status)](https://willowy-biscochitos-d1238e.netlify.app/)
 <br>
 Group Members:
@@ -17,84 +18,6 @@ Web Development Framework
 <h2>About</h2>
 
 This is a lightweight and customizable web development framework created by Jasmine Kaur, Avneet Kaur, and Gursimran Kaur. It provides a solid foundation for building responsive and modern web applications.
-
-<h2>Installation</h2>
-1️⃣ Install Sass Using npm (Recommended for Web Developers)
-If you have Node.js installed, you can use npm (Node Package Manager) to install Sass globally.
-
-🔹 Step 1: Check if Node.js is Installed
-Run the following command in your terminal (Command Prompt/PowerShell for Windows or Terminal for macOS/Linux):
-
-sh
-
-node -v
-If Node.js is installed, it will show the version. If not, download and install it from Node.js official site.
-
-🔹 Step 2: Install Sass Globally
-Once Node.js is installed, run:
-
-sh
-npm install -g sass
-This installs Sass globally so you can use it in any project.
-
-🔹 Step 3: Check if Sass is Installed
-Verify the installation with:
-
-sh
-sass --version
-This should output the installed version of Sass.
-
-
-Clone the repository:
-
-git clone https://github.com/your-repo.git
-
-Navigate to the project directory:
-
-cd your-repo
-
-Install dependencies (if applicable):
-
-npm install
-
-Usage
-
-Include the framework in your project:
-
-<link rel="stylesheet" href="style.css">
-<script src="script.js"></script>
-
-Use predefined classes and components to style and structure your web pages.
-
-Customization
-
-Modify style.css to update styles.
-
-Edit script.js to customize JavaScript functionality.
-
-Add new components or tweak existing ones based on your needs.
-
-Examples
-
-Here are some examples of how to use the framework:
-
-Example 1: Responsive Navigation Bar
-
-<nav class="navbar">
-  <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-     <li><a href="#">Services</a>
-    <li><a href="#">Contact</a></li>
-  </ul>
-</nav>
-
-# Web Development Project  
-
-## Team Members  
-- **Jasmine Kaur**  
-- **Avneet Kaur**  
-- **Gursimran Kaur**  
 
 ## Project Overview  
 This project is a web-based application developed using HTML, CSS, JavaScript, and PHP. It includes dynamic content, interactive features, and a responsive design to ensure a smooth user experience.  
