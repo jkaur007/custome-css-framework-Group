@@ -11,6 +11,189 @@ Color Scheme: The website features a purple-themed design with various shades of
 Typography: Custom fonts and styles are defined in SASS for a cohesive look.
 Responsive Layout: Utilizes Bootstrap's grid system and media queries for mobile compatibility.
 Project Structure
+Web Development Framework
+
+About
+
+This is a lightweight and customizable web development framework created by Jasmine Kaur, Avneet Kaur, and Gursimran Kaur. It provides a solid foundation for building responsive and modern web applications.
+
+Installation
+
+Clone the repository:
+
+git clone https://github.com/your-repo.git
+
+Navigate to the project directory:
+
+cd your-repo
+
+Install dependencies (if applicable):
+
+npm install
+
+Usage
+
+Include the framework in your project:
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+Use predefined classes and components to style and structure your web pages.
+
+Customization
+
+Modify style.css to update styles.
+
+Edit script.js to customize JavaScript functionality.
+
+Add new components or tweak existing ones based on your needs.
+
+Examples
+
+Here are some examples of how to use the framework:
+
+Example 1: Responsive Navigation Bar
+
+<nav class="navbar">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+     <li><a href="#">Services</a></li>
+    
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+# Web Development Project  
+
+## Team Members  
+- **Jasmine Kaur**  
+- **Avneet Kaur**  
+- **Gursimran Kaur**  
+
+## Project Overview  
+This project is a web-based application developed using HTML, CSS, JavaScript, and PHP. It includes dynamic content, interactive features, and a responsive design to ensure a smooth user experience.  
+
+## Installation  
+To set up the project locally:  
+1. Clone the repository:  
+   ```sh
+   git clone https://github.com/your-github-username/your-repository-name.git
+
+Navigate to the project directory:
+sh
+cd your-repository-name
+
+If using PHP, start a local server:
+sh
+php -S localhost:8000
+
+Usage
+Open the project in a browser to explore the web application.
+Navigate through different pages to interact with the features.
+If applicable, use the admin panel to manage content.
+Customization
+You can customize the project by modifying the following files:
+
+HTML: Edit structure and content in .html or .php files.
+CSS: Modify styles in style.css to change the appearance.
+JavaScript: Enhance functionality in script.js.
+Features
+Responsive design for all devices
+Interactive UI components
+Dynamic content using JavaScript and PHP
+Custom theme support
+
+Example Usage
+<section id="home" class="intro-section">
+  <div class="container">
+    <div class="row align-items-center text-white">
+      <!-- START THE CONTENT FOR THE INTRO -->
+      <div class="col-md-6 intros text-start">
+        <h1 class="display-2">Welcome,</h1>
+        <h2>Our Web Development Team</h2>
+        <p class="display-2--description lh-base">
+          We are a team of three passionate web developers dedicated to creating modern, user-friendly, and high-performing websites. With expertise in front-end and back-end development, we specialize in crafting responsive and dynamic web experiences tailored to our clients' needs.
+        </p>
+        <button type="button" class="rounded-pill btn-rounded">
+          Get in Touch
+          <span><i class="fas fa-arrow-right"></i></span>
+        </button>
+      </div>
+
+      Component: Intro Section (Built with Bootstrap & Sass)
+Bootstrap Usage
+Grid System (row and col-md-6)
+
+Bootstrap’s grid system (row and col-md-6) ensures a two-column layout, making the text and image sit side by side.
+This structure makes the section responsive, automatically stacking on smaller screens.
+Typography (display-2, lh-base)
+
+Bootstrap’s typography classes (display-2 for large headings, lh-base for line height) ensure consistent styling across different screen sizes.
+Button (btn-rounded)
+
+A Bootstrap-based button is styled with a custom class (rounded-pill) to make it pill-shaped.
+Positioning (position-absolute, top-50, start-50, translate-middle)
+
+<h2>Sass Implementation</h2>
+Bootstrap’s position utilities place the play button in the center of the video box.
+// _variables.scss (Sass Variables for colors, fonts, etc.)
+$primary-color: #ffffff;
+$secondary-color: #f8f9fa;
+$text-color: #333;
+$btn-bg: #ff5722;
+$btn-hover: #e64a19;
+
+// _buttons.scss (Button Styling)
+.btn-rounded {
+  background-color: $btn-bg;
+  color: $primary-color;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background-color: $btn-hover;
+  }
+}
+
+// _intro.scss (Styling for Intro Section)
+.intro-section {
+  background: linear-gradient(to bottom, #007bff, #6610f2);
+  color: $primary-color;
+  padding: 100px 0;
+
+  .intros {
+    h1, h2 {
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+
+  .video-box {
+    position: relative;
+    
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    i {
+      font-size: 50px;
+      color: $primary-color;
+    }
+  }
+}
+
+// main.scss (Importing all partials)
+@import "variables";
+@import "buttons";
+@import "intro";
+
+
 1. SASS File (styles.scss)
 Variables: Defined color palette (different shades of purple) and font styles.
 Mixins: Created reusable styles for buttons, shadows, transitions, and spacing.
