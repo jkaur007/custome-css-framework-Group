@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a17313e1-0d35-48d5-b659-54a709f97f06/deploy-status)](https://app.netlify.com/sites/willowy-biscochitos-d1238e/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a17313e1-0d35-48d5-b659-54a709f97f06/deploy-status)]https://willowy-biscochitos-d1238e.netlify.app/)
 Group Members:
 Jasmine kaur  - Responsible for Overall website ,Design, Color scheme, and Theme.
 Gursimran Kaur - Table and content use
