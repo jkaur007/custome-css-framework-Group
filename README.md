@@ -32,10 +32,6 @@ Navigate to the project directory:
 sh
 cd your-repository-name
 
-If using PHP, start a local server:
-sh
-php -S localhost:8000
-
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/your-username/your-repository-name.git
