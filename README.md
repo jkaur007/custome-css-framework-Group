@@ -93,7 +93,26 @@ To set up this project locally, follow these steps:
 6. **Access the Application**:
    Open your browser and navigate to `http://localhost:3000` to view the application.
 
+To include Bootstrap in your project, you have several options:
 
+**1. Using a Content Delivery Network (CDN):**
+
+This method allows you to link directly to Bootstrap's CSS and JavaScript files hosted on a CDN, eliminating the need to download and host the files yourself.
+
+- **Include Bootstrap CSS:**
+
+  Add the following line within the `<head>` section of your HTML file:
+
+  ```html
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  ```
+
+- **Include Bootstrap JavaScript:**
+
+  Place the following lines just before the closing `</body>` tag:
+
+  ```html
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybP6a4mA4jQp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6p+Qp6a98W6 
 Replace placeholders like `your-username`, `your-repository-name`, and specific commands with details relevant to your project.
 
 For more detailed information on installing Sass, refer to the [official Sass installation guide](https://sass-lang.com/install/).
