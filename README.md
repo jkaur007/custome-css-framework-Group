@@ -1,10 +1,11 @@
 # Web Development Project  
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a17313e1-0d35-48d5-b659-54a709f97f06/deploy-status)](https://willowy-biscochitos-d1238e.netlify.app/)
 <br>
-Group Members:
-Jasmine kaur  - Responsible for Overall website ,Design, Color scheme, and Theme.<br>
-Gursimran Kaur - Table and content use<br>
-Avneet Kaur - Images and links<br>
+<b>Group Members:</b><br>
+
+<b>Jasmine kaur</b> - <i>Responsible for Overall website ,Design, Color scheme, and Theme, Github and all installation</i>.<br>
+<b>Gursimran Kaur</b> - <i>Table and content use</i><br>
+<b>Avneet Kaur</b> - <i>Images and links.</i><br>
 <br>
 <h2>Project Overview</h2>
 Portfolio Website Overview - Team Project
@@ -17,10 +18,10 @@ Web Development Framework
 
 <h2>About</h2>
 
-This is a lightweight and customizable web development framework created by Jasmine Kaur, Avneet Kaur, and Gursimran Kaur. It provides a solid foundation for building responsive and modern web applications.
+This is a lightweight and customizable web development framework created by Jasmine Kaur, Avneet Kaur, and Gursimran Kaur. It provides a solid foundation for building responsive and modern web applications which is design by Scss.
 
 ## Project Overview  
-This project is a web-based application developed using HTML, CSS, JavaScript, and PHP. It includes dynamic content, interactive features, and a responsive design to ensure a smooth user experience.  
+This project is a web-based application developed using HTML, CSS, JavaScript, Sass and Bootstrap. It includes dynamic content, interactive features, and a responsive design to ensure a smooth user experience.  
 
 ## Installation  
 To set up the project locally:  
@@ -91,18 +92,20 @@ To set up this project locally, follow these steps:
 
 6. **Access the Application**:
    Open your browser and navigate to `http://localhost:3000` to view the application.
-```
+
 
 Replace placeholders like `your-username`, `your-repository-name`, and specific commands with details relevant to your project.
 
 For more detailed information on installing Sass, refer to the [official Sass installation guide](https://sass-lang.com/install/).
 
-Usage
+
+## Usage
 Open the project in a browser to explore the web application.
 Navigate through different pages to interact with the features.
 If applicable, use the admin panel to manage content.
 Customization
 You can customize the project by modifying the following files:
+
 
 HTML: Edit structure and content in .html or .php files.
 CSS: Modify styles in style.css to change the appearance.
@@ -112,8 +115,8 @@ Responsive design for all devices
 Interactive UI components
 Dynamic content using JavaScript and PHP
 Custom theme support
-
-Example Usage
+````
+<h2>Example Usage of how i made Intro section in my portfolio website:<h2>
 <section id="home" class="intro-section">
   <div class="container">
     <div class="row align-items-center text-white">
@@ -122,15 +125,15 @@ Example Usage
         <h1 class="display-2">Welcome,</h1>
         <h2>Our Web Development Team</h2>
         <p class="display-2--description lh-base">
-          We are a team of three passionate web developers dedicated to creating modern, user-friendly, and high-performing websites. With expertise in front-end and back-end development, we specialize in crafting responsive and dynamic web experiences tailored to our clients' needs.
+          We are a team of three passionate web developers dedicated to creating modern, user-friendly, and high-performing websites. With expertise in front-end and back-end development.
         </p>
         <button type="button" class="rounded-pill btn-rounded">
           Get in Touch
           <span><i class="fas fa-arrow-right"></i></span>
         </button>
       </div>
-
-      Component: Intro Section (Built with Bootstrap & Sass)
+````
+     <h2>Component: Intro Section (Built with Bootstrap & Sass)<h2>
 Bootstrap Usage
 Grid System (row and col-md-6)
 
@@ -144,9 +147,14 @@ Button (btn-rounded)
 A Bootstrap-based button is styled with a custom class (rounded-pill) to make it pill-shaped.
 Positioning (position-absolute, top-50, start-50, translate-middle)
 
-<h2>Sass Implementation</h2>
+
+## Sass Implementation ##
+
+
+
 Bootstrap’s position utilities place the play button in the center of the video box.
 // _variables.scss (Sass Variables for colors, fonts, etc.)
+```
 $primary-color: #ffffff;
 $secondary-color: #f8f9fa;
 $text-color: #333;
@@ -165,8 +173,10 @@ $btn-hover: #e64a19;
     background-color: $btn-hover;
   }
 }
+````
 
-// _intro.scss (Styling for Intro Section)
+## _intro.scss (Styling for Intro Section)
+```
 .intro-section {
   background: linear-gradient(to bottom, #007bff, #6610f2);
   color: $primary-color;
@@ -180,10 +190,6 @@ $btn-hover: #e64a19;
     p {
       font-size: 18px;
     }
-  }
-
-  .video-box {
-    position: relative;
     
     img {
       width: 100%;
@@ -201,6 +207,7 @@ $btn-hover: #e64a19;
 @import "variables";
 @import "buttons";
 @import "intro";
+```
 
 
 1. SASS File (styles.scss)
@@ -211,10 +218,16 @@ Nested Selectors: Organized styling to keep code modular and maintainable.
 Navigation Bar: Implemented using Bootstrap's responsive navbar, allowing seamless navigation.
 Grid System: Portfolio projects displayed using Bootstrap's col- classes for proper alignment and layout.
 Buttons & Forms: Enhanced with Bootstrap components and further customized with SASS.
-Features Implemented
-✅ Portfolio Section: Displays details about the web developers, including links to their profiles and projects. 
-✅ Navigation: Smooth scrolling functionality to navigate between Projects, About, Contact, and other sections. 
-✅ Interactive Elements: Added hover effects and animations using SASS mixins and Bootstrap utilities. 
+Features Implemented<br>
+
+<h2>Features of the website</h2>
+
+✅ Portfolio Section: Displays details about the web developers, including links to their profiles and projects. <br>
+
+✅ Navigation: Smooth scrolling functionality to navigate between Projects, About, Contact, and other sections.<br>
+
+✅ Interactive Elements: Added hover effects and animations using SASS mixins and Bootstrap utilities. <br>
+
 ✅ Mobile Responsiveness: Optimized using Bootstrap's breakpoints, ensuring a seamless experience on all devices.
 This document provides an overview of our team portfolio project, detailing how SASS and Bootstrap were utilized to create a well-structured, responsive, and visually appealing website.
 
